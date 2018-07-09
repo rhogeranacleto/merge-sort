@@ -1,0 +1,18 @@
+{
+  "name": "aula-mais-legal-de-todas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"tsc": "tsc",
+	"run":"ts-node merge.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^10.3.4",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  }
+}
