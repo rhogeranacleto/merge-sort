@@ -16,11 +16,11 @@ export function ask(first, second) {
 
 	return new Promise(resolve => {
 
-		rl.question(`Qual é melhor?
-y: ${first}
-n: ${second}\nResp: `, answer => {
+		rl.question(`Qual música é melhor?
+1: ${first}
+0: ${second}\nResp: `, answer => {
 
-				resolve(answer === 'y');
+				resolve(answer);
 			});
 	});
 }

@@ -1,5 +1,9 @@
 import { ask } from "./read";
 import { separate } from "./separate";
+import { save } from "./write";
+
+const carai = require('./result.json');
+let unsaved = 0;
 
 async function compare(final, oto) {
 
@@ -17,17 +21,18 @@ async function compare(final, oto) {
 	const second = oto[1][0];
 
 	const is = await ask(first, second)
-
-	if (is) {
-
+	
+	if (is === '1') {
+		
 		final.push(first);
 		oto[0].shift();
-	} else {
-
+	} else if (is === '0') {
+		
 		final.push(second);
 		oto[1].shift();
 	}
-
+	
+	console.log(`\n${++unsaved} não salvos.`);
 	return compare(final, oto);
 }
 
@@ -50,10 +55,21 @@ async function merge(initial) {
 		}
 	}
 
-	return compare([], oto);
+	const res = await compare([], oto);
+
+	initial.splice(0, initial.length);
+
+	res.forEach(r => initial.push(r));
+
+	await save(carai);
+
+	console.log('\nCheckpoint!\n');
+	unsaved = 0;
+
+	return res;
 }
 
-merge(separate([4, 52, 345, 5, 23, 0, 6, 3, 87, 10])).then(r => {
+merge(carai).then(r => {
 
 	console.log(r);
 });

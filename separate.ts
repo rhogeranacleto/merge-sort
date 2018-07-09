@@ -1,4 +1,6 @@
-const musics = [4, 23, 52, 345, 4, 5, 345, 23, 0, 6, 3, 87, 10];
+import { save } from "./write";
+
+const list = require('./list.json');
 
 export function separate(items) {
 
@@ -15,4 +17,4 @@ export function separate(items) {
 	return maria;
 }
 
-// console.log(JSON.stringify(separate(musics)));
+save(separate(list)).then(() => console.log('salvou'));
