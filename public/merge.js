@@ -10,21 +10,33 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 let unsaved = 0;
 let $Q;
 let carai;
-document.getElementById('first').addEventListener('click', function () {
+$('#first').on('click', function () {
     if ($Q) {
         $Q.resolve('1');
     }
 });
-document.getElementById('second').addEventListener('click', function () {
+$('#second').on('click', function () {
     if ($Q) {
         $Q.resolve('0');
     }
 });
-function ask() {
+function set(first, second) {
+    $('#first')
+        .find('img').attr('src', first.album).end()
+        .find('h1').text(first.title).end()
+        .find('h2').text(first.artist);
+    $('#second')
+        .find('img').attr('src', second.album).end()
+        .find('h1').text(second.title).end()
+        .find('h2').text(second.artist);
+    $('#content').removeClass('loading');
+}
+function ask(first, second) {
     var res, rej;
     var promise = new Promise((resolve, reject) => {
         res = resolve;
         rej = reject;
+        set(first, second);
     });
     promise.resolve = res;
     promise.reject = rej;
@@ -41,7 +53,8 @@ function compare(final, oto) {
         }
         const first = oto[0][0];
         const second = oto[1][0];
-        const is = yield ask();
+        const is = yield ask(first, second);
+        $('#content').addClass('loading');
         console.log('resolveu', is);
         if (is === '1') {
             final.push(first);
@@ -52,12 +65,16 @@ function compare(final, oto) {
             oto[1].shift();
         }
         console.log(`\n${++unsaved} não salvos.`);
+        $('#info').text(`${++unsaved} não salvos.`);
         return compare(final, oto);
     });
 }
 function merge(initial) {
     return __awaiter(this, void 0, void 0, function* () {
         const oto = [];
+        if (initial.length > 2) {
+            return initial;
+        }
         for (let i = 0; i < initial.length; i++) {
             const item = initial[i];
             if (Array.isArray(item)) {
@@ -71,14 +88,15 @@ function merge(initial) {
         const res = yield compare([], oto);
         initial.splice(0, initial.length);
         res.forEach(r => initial.push(r));
-        console.log('\nCheckpoint!\n');
+        yield axios.post('http://localhost:5000/arquivo', carai);
+        $('#info').text('Salvo!');
         unsaved = 0;
         return res;
     });
 }
 axios.get('http://localhost:5000/arquivo').then(file => {
-    carai = file;
-    merge(carai);
+    carai = file.data;
+    return merge(carai);
 }).then(jj => {
     console.log(jj, carai);
 });

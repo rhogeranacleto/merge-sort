@@ -40,6 +40,11 @@
     "album": "https://api.deezer.com/album/11898198/image?size=big"
   },
   {
+    "title": "A Jiripoca Vai Piar",
+    "artist": "Daniel",
+    "album": "https://api.deezer.com/album/360819/image?size=big"
+  },
+  {
     "title": "A Lenda",
     "artist": "Sandy & Junior",
     "album": "https://api.deezer.com/album/430488/image?size=big"
@@ -113,6 +118,11 @@
     "title": "After The Afterparty (feat. Lil Yachty)",
     "artist": "Charli XCX",
     "album": "https://api.deezer.com/album/14400356/image?size=big"
+  },
+  {
+    "title": "Age of Pride",
+    "artist": "Veigar Margeirsson",
+    "album": "https://api.deezer.com/album/2537231/image?size=big"
   },
   {
     "title": "Ainda Gosto Dela",
@@ -213,6 +223,11 @@
     "title": "Anna Júlia",
     "artist": "Los Hermanos",
     "album": "https://api.deezer.com/album/7704648/image?size=big"
+  },
+  {
+    "title": "Apa (Ao Vivo)",
+    "artist": "Grupo Tradiçao",
+    "album": "https://api.deezer.com/album/7694427/image?size=big"
   },
   {
     "title": "Apologize (Album Version)",
@@ -430,6 +445,16 @@
     "album": "https://api.deezer.com/album/700950/image?size=big"
   },
   {
+    "title": "Blue Moon (Rerecorded)",
+    "artist": "The Marcels",
+    "album": "https://api.deezer.com/album/553546/image?size=big"
+  },
+  {
+    "title": "Boate Azul / Ainda Ontem Chorei De Saudade (Ao Vivo)",
+    "artist": "Bruno & Marrone",
+    "album": "https://api.deezer.com/album/14520310/image?size=big"
+  },
+  {
     "title": "Bohemian Rhapsody (Remastered 2011)",
     "artist": "Queen",
     "album": "https://api.deezer.com/album/915785/image?size=big"
@@ -635,6 +660,11 @@
     "album": "https://api.deezer.com/album/12490722/image?size=big"
   },
   {
+    "title": "Chevaliers De Sangreal",
+    "artist": "Hans Zimmer",
+    "album": "https://api.deezer.com/album/246667/image?size=big"
+  },
+  {
     "title": "Chic, Chic...",
     "artist": "Kelly Key",
     "album": "https://api.deezer.com/album/366424/image?size=big"
@@ -648,6 +678,11 @@
     "title": "Chocolate",
     "artist": "The 1975",
     "album": "https://api.deezer.com/album/6858831/image?size=big"
+  },
+  {
+    "title": "Choram as Rosas (Lloran las Rosas)",
+    "artist": "Bruno & Marrone",
+    "album": "https://api.deezer.com/album/1213984/image?size=big"
   },
   {
     "title": "Ciao Adios",
@@ -790,6 +825,11 @@
     "album": "https://api.deezer.com/album/9900234/image?size=big"
   },
   {
+    "title": "Cumade e Cumpade",
+    "artist": "Leandro e Leonardo",
+    "album": "https://api.deezer.com/album/1423026/image?size=big"
+  },
+  {
     "title": "Cups (Pitch Perfect’s “When I’m Gone”) (Pop Version)",
     "artist": "Anna Kendrick",
     "album": "https://api.deezer.com/album/6446659/image?size=big"
@@ -808,6 +848,11 @@
     "title": "Dancing On My Own",
     "artist": "Calum Scott",
     "album": "https://api.deezer.com/album/12456510/image?size=big"
+  },
+  {
+    "title": "Dancing Queen",
+    "artist": "ABBA",
+    "album": "https://api.deezer.com/album/100323/image?size=big"
   },
   {
     "title": "Dancing With Myself (EP Version;2001 Digital Remaster)",
@@ -865,6 +910,21 @@
     "album": "https://api.deezer.com/album/1649798/image?size=big"
   },
   {
+    "title": "Disaster",
+    "artist": "Craig Amstrong",
+    "album": "?size=big"
+  },
+  {
+    "title": "Divenire",
+    "artist": "Ludovico Einaudi",
+    "album": "https://api.deezer.com/album/6033267/image?size=big"
+  },
+  {
+    "title": "Do Jeito Que a Moçada Gosta",
+    "artist": "Zezé Di Camargo & Luciano",
+    "album": "https://api.deezer.com/album/13566615/image?size=big"
+  },
+  {
     "title": "Do Seu Lado (Live Version)",
     "artist": "Jota Quest",
     "album": "https://api.deezer.com/album/1028777/image?size=big"
@@ -888,6 +948,11 @@
     "title": "Dog Days Are Over",
     "artist": "Florence + The Machine",
     "album": "https://api.deezer.com/album/697730/image?size=big"
+  },
+  {
+    "title": "Don't Forget To Remember",
+    "artist": "Bee Gees",
+    "album": "https://api.deezer.com/album/14981433/image?size=big"
   },
   {
     "title": "Don't Let Me Down",
@@ -963,6 +1028,11 @@
     "title": "Endless Light",
     "artist": "Hillsong Worship",
     "album": "https://api.deezer.com/album/6971220/image?size=big"
+  },
+  {
+    "title": "Endless Love",
+    "artist": "Lionel Richie",
+    "album": "https://api.deezer.com/album/299895/image?size=big"
   },
   {
     "title": "Então Vai",
@@ -1131,6 +1201,11 @@
   },
   {
     "title": "Fly",
+    "artist": "Ludovico Einaudi",
+    "album": "https://api.deezer.com/album/6033267/image?size=big"
+  },
+  {
+    "title": "Fly",
     "artist": "Nicki Minaj",
     "album": "https://api.deezer.com/album/706468/image?size=big"
   },
@@ -1198,6 +1273,11 @@
     "title": "Gimme More",
     "artist": "Britney Spears",
     "album": "https://api.deezer.com/album/1441004/image?size=big"
+  },
+  {
+    "title": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+    "artist": "ABBA",
+    "album": "https://api.deezer.com/album/100323/image?size=big"
   },
   {
     "title": "Girassol (Acústico)",
@@ -1365,6 +1445,11 @@
     "album": "https://api.deezer.com/album/423935/image?size=big"
   },
   {
+    "title": "Hello Zep (From \"Saw\")",
+    "artist": "London Music Works",
+    "album": "https://api.deezer.com/album/10465724/image?size=big"
+  },
+  {
     "title": "Hello",
     "artist": "Adele",
     "album": "https://api.deezer.com/album/11483764/image?size=big"
@@ -1495,6 +1580,16 @@
     "album": "https://api.deezer.com/album/11898198/image?size=big"
   },
   {
+    "title": "Hymn To Sea",
+    "artist": "The Titanic Soundtrack Singers+orchestra",
+    "album": "https://api.deezer.com/album/5224501/image?size=big"
+  },
+  {
+    "title": "Hymn to the Sea",
+    "artist": "James Horner",
+    "album": "https://api.deezer.com/album/113048/image?size=big"
+  },
+  {
     "title": "Hymn",
     "artist": "Fleurie",
     "album": "https://api.deezer.com/album/6977954/image?size=big"
@@ -1558,6 +1653,11 @@
     "title": "I Need You",
     "artist": "Faul & Wad",
     "album": "https://api.deezer.com/album/40761561/image?size=big"
+  },
+  {
+    "title": "I Started A Joke",
+    "artist": "Bee Gees",
+    "album": "https://api.deezer.com/album/14981433/image?size=big"
   },
   {
     "title": "I Surrender",
@@ -1755,6 +1855,11 @@
     "album": "https://api.deezer.com/album/10535862/image?size=big"
   },
   {
+    "title": "J'y suis jamais allé",
+    "artist": "Yann Tiersen",
+    "album": "https://api.deezer.com/album/1321359/image?size=big"
+  },
+  {
     "title": "Je ne sais pas",
     "artist": "Joyce Jonathan",
     "album": "https://api.deezer.com/album/1315713/image?size=big"
@@ -1903,6 +2008,11 @@
     "title": "Let's Be Friends",
     "artist": "Emily Osment",
     "album": "https://api.deezer.com/album/8015674/image?size=big"
+  },
+  {
+    "title": "Let's Groove",
+    "artist": "Earth, Wind & Fire",
+    "album": "https://api.deezer.com/album/494852/image?size=big"
   },
   {
     "title": "Life is a Highway",
@@ -2058,6 +2168,11 @@
     "title": "Made To Love",
     "artist": "tobyMac",
     "album": "https://api.deezer.com/album/319811/image?size=big"
+  },
+  {
+    "title": "Main Titles",
+    "artist": "Ramin Djawadi",
+    "album": "https://api.deezer.com/album/13460467/image?size=big"
   },
   {
     "title": "Make Me... (feat. G-Eazy)",
@@ -2235,6 +2350,11 @@
     "album": "https://api.deezer.com/album/43099021/image?size=big"
   },
   {
+    "title": "Morango Do Nordeste",
+    "artist": "Frank Aguiar",
+    "album": "https://api.deezer.com/album/328591/image?size=big"
+  },
+  {
     "title": "More of Me (From \"Tangled: Before Ever After\")",
     "artist": "Natasha Bedingfield",
     "album": "https://api.deezer.com/album/15732862/image?size=big"
@@ -2248,6 +2368,11 @@
     "title": "Moves Like Jagger (Studio Recording From The Voice Performance)",
     "artist": "Maroon 5",
     "album": "https://api.deezer.com/album/1167403/image?size=big"
+  },
+  {
+    "title": "Muleca",
+    "artist": "Rick and Renner",
+    "album": "https://api.deezer.com/album/364866/image?size=big"
   },
   {
     "title": "Mulher de Fases",
@@ -2350,6 +2475,11 @@
     "album": "https://api.deezer.com/album/39239321/image?size=big"
   },
   {
+    "title": "Now We Are Free",
+    "artist": "Lisa Gerrard",
+    "album": "https://api.deezer.com/album/296255/image?size=big"
+  },
+  {
     "title": "Now You Want Me Back",
     "artist": "Ina Forsman",
     "album": "https://api.deezer.com/album/44269411/image?size=big"
@@ -2433,6 +2563,11 @@
     "title": "On Top Of The World",
     "artist": "Imagine Dragons",
     "album": "https://api.deezer.com/album/6240279/image?size=big"
+  },
+  {
+    "title": "Once Upon A Time In Africa",
+    "artist": "Hans Zimmer",
+    "album": "https://api.deezer.com/album/249481/image?size=big"
   },
   {
     "title": "One Dance",
@@ -2553,6 +2688,11 @@
     "title": "Pela Luz Dos Olhos Teus",
     "artist": "Miúcha & Tom Jobim",
     "album": "https://api.deezer.com/album/1422690/image?size=big"
+  },
+  {
+    "title": "Pense em mim",
+    "artist": "Leandro & Leonardo",
+    "album": "https://api.deezer.com/album/364271/image?size=big"
   },
   {
     "title": "People Help The People",
@@ -2745,9 +2885,19 @@
     "album": "https://api.deezer.com/album/574506/image?size=big"
   },
   {
+    "title": "Requiem for a Tower",
+    "artist": "London Music Works",
+    "album": "https://api.deezer.com/album/10465724/image?size=big"
+  },
+  {
     "title": "Respirar",
     "artist": "Sandy",
     "album": "https://api.deezer.com/album/40967681/image?size=big"
+  },
+  {
+    "title": "Rhythm of the Night",
+    "artist": "Corona",
+    "album": "https://api.deezer.com/album/6190339/image?size=big"
   },
   {
     "title": "Ride",
@@ -2935,6 +3085,11 @@
     "album": "https://api.deezer.com/album/14047318/image?size=big"
   },
   {
+    "title": "September",
+    "artist": "Earth, Wind & Fire",
+    "album": "https://api.deezer.com/album/79232/image?size=big"
+  },
+  {
     "title": "Serpente",
     "artist": "Pitty",
     "album": "https://api.deezer.com/album/9758190/image?size=big"
@@ -3053,6 +3208,16 @@
     "title": "Singular",
     "artist": "ANAVITÓRIA",
     "album": "https://api.deezer.com/album/13833330/image?size=big"
+  },
+  {
+    "title": "Sinhá Moça",
+    "artist": "Leonardo",
+    "album": "https://api.deezer.com/album/1295775/image?size=big"
+  },
+  {
+    "title": "Sinônimos",
+    "artist": "Chitãozinho e Xororó & Chitãozinho e Xororó",
+    "album": "https://api.deezer.com/album/6571956/image?size=big"
   },
   {
     "title": "Skin",
@@ -3195,6 +3360,11 @@
     "album": "https://api.deezer.com/album/7784753/image?size=big"
   },
   {
+    "title": "Stayin' Alive",
+    "artist": "Bee Gees",
+    "album": "https://api.deezer.com/album/14954507/image?size=big"
+  },
+  {
     "title": "Steal My Girl",
     "artist": "One Direction",
     "album": "https://api.deezer.com/album/8725945/image?size=big"
@@ -3213,6 +3383,11 @@
     "title": "Stitches",
     "artist": "Shawn Mendes",
     "album": "https://api.deezer.com/album/10008800/image?size=big"
+  },
+  {
+    "title": "Strength of a Thousand Men (Instrumental)",
+    "artist": "Two Steps from Hell",
+    "album": "https://api.deezer.com/album/41388831/image?size=big"
   },
   {
     "title": "Stronger (Instrumental)",
@@ -3283,6 +3458,11 @@
     "title": "Sweater Weather",
     "artist": "The Neighbourhood",
     "album": "https://api.deezer.com/album/6505633/image?size=big"
+  },
+  {
+    "title": "Sweet Dreams (Are Made of This) (Remastered)",
+    "artist": "Eurythmics",
+    "album": "https://api.deezer.com/album/73280/image?size=big"
   },
   {
     "title": "Take It All (Live)",
@@ -3495,6 +3675,11 @@
     "album": "https://api.deezer.com/album/1233233/image?size=big"
   },
   {
+    "title": "Time",
+    "artist": "Hans Zimmer",
+    "album": "https://api.deezer.com/album/601778/image?size=big"
+  },
+  {
     "title": "To Build A Home",
     "artist": "The Cinematic Orchestra",
     "album": "https://api.deezer.com/album/936111/image?size=big"
@@ -3563,6 +3748,16 @@
     "title": "Trevo (Tu)",
     "artist": "ANAVITÓRIA",
     "album": "https://api.deezer.com/album/13833330/image?size=big"
+  },
+  {
+    "title": "Tristeza do Jeca",
+    "artist": "Zezé Di Camargo & Luciano",
+    "album": "https://api.deezer.com/album/1420388/image?size=big"
+  },
+  {
+    "title": "Truly Madly Deeply",
+    "artist": "Savage Garden",
+    "album": "https://api.deezer.com/album/71012/image?size=big"
   },
   {
     "title": "Try",
@@ -3640,14 +3835,34 @@
     "album": "https://api.deezer.com/album/299435/image?size=big"
   },
   {
+    "title": "Victory",
+    "artist": "Two Steps from Hell",
+    "album": "https://api.deezer.com/album/10214488/image?size=big"
+  },
+  {
     "title": "Viva La Vida",
     "artist": "Coldplay",
     "album": "https://api.deezer.com/album/303627/image?size=big"
   },
   {
+    "title": "Voa Bicho",
+    "artist": "Milton Nascimento",
+    "album": "https://api.deezer.com/album/8270356/image?size=big"
+  },
+  {
     "title": "Você Não Presta",
     "artist": "Mallu Magalhães",
     "album": "https://api.deezer.com/album/41561481/image?size=big"
+  },
+  {
+    "title": "Você Virou Saudade",
+    "artist": "Só Pra Contrariar",
+    "album": "https://api.deezer.com/album/1217530/image?size=big"
+  },
+  {
+    "title": "Volvere",
+    "artist": "Diego Verdaguer",
+    "album": "https://api.deezer.com/album/2538001/image?size=big"
   },
   {
     "title": "Vou Deixar",
@@ -3713,6 +3928,11 @@
     "title": "Way Down We Go",
     "artist": "Kaleo",
     "album": "https://api.deezer.com/album/13262277/image?size=big"
+  },
+  {
+    "title": "We Are Family",
+    "artist": "Sister Sledge",
+    "album": "https://api.deezer.com/album/97336/image?size=big"
   },
   {
     "title": "We Are Young (feat. Janelle Monáe)",
@@ -3880,6 +4100,11 @@
     "album": "https://api.deezer.com/album/14781371/image?size=big"
   },
   {
+    "title": "You'll Never Find Another Love Like Mine",
+    "artist": "Lou Rawls",
+    "album": "https://api.deezer.com/album/7725131/image?size=big"
+  },
+  {
     "title": "You're Beautiful",
     "artist": "James Blunt",
     "album": "https://api.deezer.com/album/257970/image?size=big"
@@ -3933,6 +4158,11 @@
     "title": "i hate u, i love u (feat. olivia o'brien)",
     "artist": "Gnash",
     "album": "https://api.deezer.com/album/12445718/image?size=big"
+  },
+  {
+    "title": "Água De Coco",
+    "artist": "Leonardo",
+    "album": "https://api.deezer.com/album/500745/image?size=big"
   },
   {
     "title": "Águas De Março",

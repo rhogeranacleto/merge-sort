@@ -1,1 +1,1 @@
-jq '.data | map({title: .title, artist: .artist.name, album: picture: .album.cover+"?size=big"}) | unique_by(.title+.artist.name)'
+jq '.data | map({title: .title, artist: .artist.name, album: (.album.cover+"?size=big")}) | unique_by(.title+.artist)'
