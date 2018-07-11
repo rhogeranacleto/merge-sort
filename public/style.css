@@ -1,0 +1,29 @@
+#content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+#content>div {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px;
+	padding: 10px;
+	flex-direction: column;
+	border-radius: 10px;
+}
+
+#content>div:hover {
+	background: #0000001f;
+}
+
+#content>div>img {
+	width: 60%;
+}
+
+body {
+	margin: 0;
+}

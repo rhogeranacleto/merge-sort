@@ -4,7 +4,7 @@ export function save(data: any[]) {
 
 	return new Promise((resolve, reject) => {
 
-		writeFile('./result.json', JSON.stringify(data), {
+		writeFile('./resultes.json', JSON.stringify(data), {
 			encoding: 'utf-8'
 		}, err => {
 

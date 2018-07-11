@@ -1,6 +1,6 @@
 import { save } from "./write";
 
-const list = require('./list.json');
+const list = require('./otro.json');
 
 export function separate(items) {
 

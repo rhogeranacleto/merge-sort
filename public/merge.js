@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 let unsaved = 0;
 let $Q;
-let carai = [[12, 3], [[13, 5], [6, 1]]];
+let carai;
 document.getElementById('first').addEventListener('click', function () {
     if ($Q) {
         $Q.resolve('1');
@@ -76,6 +76,9 @@ function merge(initial) {
         return res;
     });
 }
-merge(carai).then(jj => {
+axios.get('http://localhost:5000/arquivo').then(file => {
+    carai = file;
+    merge(carai);
+}).then(jj => {
     console.log(jj, carai);
 });

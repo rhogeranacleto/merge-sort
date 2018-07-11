@@ -1,6 +1,8 @@
 let unsaved = 0;
 let $Q;
-let carai = [[12, 3], [[13, 5], [6, 1]]];
+let carai;
+
+declare var axios: any;
 
 document.getElementById('first')!.addEventListener('click', function () {
 
@@ -101,7 +103,12 @@ async function merge(initial) {
 	return res;
 }
 
-merge(carai).then(jj => {
+axios.get('http://localhost:5000/arquivo').then(file => {
+
+	carai = file.data;
+
+	merge(carai)
+}).then(jj => {
 
 	console.log(jj, carai);
 });
